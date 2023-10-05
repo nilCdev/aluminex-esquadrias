@@ -1,0 +1,108 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    top: border-box;       
+}
+
+body {
+    width:100%;
+    height: 1375px;
+    /*background-color: #8fd191;*/
+    overflow-x: hidden;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;    
+}
+
+header > h1 {
+    display: flex;
+    font-size: 45px;
+}
+
+header > h4 {
+    display: flex;   
+}
+
+nav {
+    background-color: #333;
+    margin-top: 1px;
+}
+
+nav li {
+    display:inline-block;
+}
+
+nav li a {
+    display: inline-block;    
+    color: white;
+    padding: 8px;
+    text-decoration: none;       
+    padding: 8px;
+    transition-duration: .5s;
+}
+
+nav li a:hover {
+    background-color: #8fd191;
+    color: #123313;
+}
+
+.produtos-menu {
+    position: absolute;
+    box-shadow: 0 0 2px black ;
+    display: none;
+}
+
+.produtos-menu a {
+    display: block;
+    color: rgb(3, 36, 10);
+}
+
+.produtos:hover .produtos-menu {
+    display: block;
+}
+
+main {
+    display: flex;
+    min-width: 250px;
+    max-width: 1100px;
+    height: 1100px;
+    margin: auto;
+    background-color: white;
+    /*background-color:rgba(57, 241, 7, 0.425);*/  
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1088px;
+    width: 100%;
+    padding-top: 10px;
+    justify-content: space-around;
+    border: 0.5px solid greenyellow;
+}
+
+figure > .prod-1, figure >.prod-2, figure >.prod-3, figure > .prod-4, figure > .prod-5, figure >.prod-6, figure >.prod-7, figure >.prod-8, figure >.prod-9 {
+    height: 290px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid #2cc931;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;    
+}
+
+
+
